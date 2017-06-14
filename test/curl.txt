@@ -1,0 +1,10 @@
+curl -F "file=@c://test.txt" -F "cmName=test" -F "cmAuthor=test" -F "cmCreatedDate=test" -F "cmType=test" http://localhost:8080/cmapi/uploadcontent
+
+curl http://localhost:8080/cmapi/getcontentbyid/1
+
+curl http://localhost:8080/cmapi/getcontentdatabyid/1
+
+curl http://localhost:8080/cmapi/getcontentdatabyname/test
+
+curl http://localhost:8080/cmapi/getallcontentdata
+
