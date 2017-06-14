@@ -11,3 +11,5 @@ This is a Spring Boot MVC mini-app that includes a RESTFul API for the following
    allow less secure apps to login. (https://myaccount.google.com/lesssecureapps).
    
  To build and run using Gradlew: gradlew bootRun.
+ 
+ Testing is provided by cURL commands in the /test folder.
